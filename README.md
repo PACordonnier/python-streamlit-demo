@@ -19,6 +19,7 @@ pip install -r requirements.txt
 Pour exécuter cette application, deux possibilités
 
 ```
+cd python-streamlit-demo
 streamlit run app.py --server.port 5800 --server.address 0.0.0.0
 # Ou utiliser le script déjà écrit
 ./start_streamlit.sh
@@ -34,4 +35,4 @@ Au démarrage de l'instance par onyxia, un lien pour accéder au port 5800 du co
 
 Pour exécuter la ligne de commandes streamlit, dans vscode server sélectionner le menu déroulant (en haut à gauche) -> Terminal -> New terminal.
 
-Puis lancer `./start_streamlit.sh`
+Puis lancer `./python-streamlit-demo/start_streamlit.sh`
